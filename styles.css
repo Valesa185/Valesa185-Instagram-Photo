@@ -1,4 +1,4 @@
- /** {
+ /* {
     border: 1px dashed red;
     min-height: 10px;
  }
@@ -6,7 +6,9 @@
 
 html {
    background-color: rgb(231, 230, 230);
+   font-family:Arial, Helvetica, sans-serif;
 }
+
 body {
     margin: 0px;
 }
@@ -19,24 +21,17 @@ header {
   
   h1 {
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
   }
   
   .caja {
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
     margin: 50px auto; 
-
     background-color: white;
-    display: block;
   }
 
-  
   #header-post {
     height: 10%;
-    width: 100%;
-   
-   
   }
 
   #title-header-left {
@@ -44,31 +39,31 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
     margin-left: 10px;
   }
 
   #number-header-right {
-
     float: right;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0; 
-    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(176, 172, 172, 0.586);
     margin-right: 10px;
   }
 
   #image-post {
     height: 75%;
-    background-color: #33ff7e;
+    display:flex
   }
 
   #description-post {
     height: 15%;
-    background-color: blue;
   }
   
+  img {
+    width: 100%;
+  }
+
+  p {
+    margin-left: 8px;
+  }
